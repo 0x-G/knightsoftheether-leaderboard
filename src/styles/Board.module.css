@@ -1,0 +1,57 @@
+.buttonsWrapper {
+    position: absolute;
+    width: 100%;
+    height: 62px;
+    bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 85px;
+    box-sizing: border-box;
+}  
+
+
+.boardContainer {
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center;
+    position: absolute; 
+    width: 948px;
+    height: 924px;
+    font-family: 'Amiri';
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.boardWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden; 
+}
+
+.leaderboardTitle {
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+.columnTitle {
+    position: absolute;
+    color: #ffffff;
+    font-family: 'Amiri';
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.navigationButton {
+    margin-right: 30px;
+}
+  

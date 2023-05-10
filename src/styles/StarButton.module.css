@@ -1,0 +1,19 @@
+.starButtonContainer {
+    background-color: transparent;
+    width: 104px;
+    height: 62px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+.starButton {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+  }

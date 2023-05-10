@@ -1,0 +1,10 @@
+.buttonContainer {
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 104px;
+  height: 62px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  background-size: contain;
+}

@@ -1,0 +1,57 @@
+.leaderboardRow {
+    position: absolute;
+    width: calc(100% - 57.8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 29.5px;
+    text-align: center;
+  }
+  
+.rowEven {
+    height: 50.3px; 
+    background-color: rgba(113, 90, 67, 0.3); 
+  }
+  
+.rowOdd {
+    height: 50.3px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+.rank {
+    position: absolute;
+    left: 33px;
+    color: yellow;
+  }
+  
+.name {
+    position: absolute;
+    left: 200px;
+    color: #ffffff;
+    width: 300px; 
+    text-align: center;
+  }    
+  
+.score {
+    position: absolute;
+    left: calc(50% + 130px); 
+    color: #ffffff;
+    width: 300px;
+    text-align: center;
+  }
+  
+.trophyIcon {
+    position: absolute;
+    left: calc(100% - 89px); /* Adjust the value as needed to position the trophy icon */
+    height: 35px; /* Adjust the size as needed */
+  }
+  
+.searchIcon {
+    position: absolute;
+    left: calc(100% - 60px); /* Adjust the value as needed to position the search icon */
+    height: 45px; /* Adjust the size as needed */
+  }
+  
+  
+  
+  
