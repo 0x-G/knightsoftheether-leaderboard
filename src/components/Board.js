@@ -150,7 +150,7 @@ import LeaderboardRow from './LeaderboardRow';
                 <div
                 style={{
                     position: 'absolute',
-                    left: '727px',
+                    left: '340px',
                     top: '150px',
                     padding: '5px',
                     borderRadius: '5px',
