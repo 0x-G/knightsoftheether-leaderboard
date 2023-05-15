@@ -114,7 +114,7 @@ import LeaderboardRow from './LeaderboardRow';
         }}
       >
         <div className={styles.leaderboardTitle} style={{ top: '66px' }}>
-          LEADERBOARD
+          The Royal Leaderboard
         </div>
 
         <div className={styles.columnTitle} style={{ top: '205px', left: '50px' }}>
@@ -122,15 +122,16 @@ import LeaderboardRow from './LeaderboardRow';
         </div>
         <div className={styles.columnTitle} style={{ top: '205px', left: '350px' }}>
           Name
-        </div>
-        <div className={styles.columnTitle} style={{ top: '205px', left: '727px' }}>
-          Score
           <img
             src={search}
             alt="search"
-            style={{ position: 'absolute', left: '100px', height: '40px' }}
+            style={{ position: 'absolute', left: '70px', height: '40px', bottom: '-10px' }}
             onClick={toggleSearchVisibility}
             />
+        </div>
+        <div className={styles.columnTitle} style={{ top: '205px', left: '727px' }}>
+          Score
+          
 
         </div>
 
