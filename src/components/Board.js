@@ -113,7 +113,7 @@ import LeaderboardRow from './LeaderboardRow';
           transform: `scale(${scaleValue})`,
         }}
       >
-        <div className={styles.leaderboardTitle} style={{ top: '66px' }}>
+        <div className={styles.leaderboardTitle} style={{ top: '76px' }}>
           The Royal Leaderboard
         </div>
 
