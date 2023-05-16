@@ -1,0 +1,18 @@
+.homeIcon {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    cursor: pointer;
+    width: 100px;
+    height: 80px;
+    z-index: 1;
+  }
+  
+  /* Media query for mobile screens */
+  @media screen and (max-width: 768px) {
+    .homeIcon {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  
