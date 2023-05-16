@@ -2,7 +2,7 @@ import React from 'react';
 import Background from './components/Background';
 import Board from './components/Board';
 
-// Import your images here
+
 import bgImage from './assets/BG.png';
 import boardImage from './assets/board.png';
 import leftNext2Image from './assets/leftnext2.png';
@@ -23,14 +23,16 @@ function App() {
             alt="Home"
             className={styles.homeIcon}          />
         </a>
-        <Board
-          boardImage={boardImage}
-          leftNext2={leftNext2Image}
-          leftNext1={leftNext1Image}
-          rightNext2={rightNext2Image}
-          rightNext1={rightNext1Image}
-          star={starImage}
-        />
+            <Board
+                boardImage={boardImage}
+                leftNext2={leftNext2Image}
+                leftNext1={leftNext1Image}
+                rightNext2={rightNext2Image}
+                rightNext1={rightNext1Image}
+                star={starImage}
+            />
+
+
       </Background>
     </div>
   );
