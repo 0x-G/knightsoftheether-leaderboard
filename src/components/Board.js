@@ -120,7 +120,7 @@ import LeaderboardRow from './LeaderboardRow';
         <div className={styles.columnTitle} style={{ top: '205px', left: '50px' }}>
           Rank
         </div>
-        <div className={styles.columnTitle} style={{ top: '205px', left: '350px' }}>
+        <div className={styles.columnTitle} style={{ top: '205px', left: '370px' }}>
           Name
           <img
             src={search}
@@ -131,8 +131,6 @@ import LeaderboardRow from './LeaderboardRow';
         </div>
         <div className={styles.columnTitle} style={{ top: '205px', left: '727px' }}>
           Score
-          
-
         </div>
 
         {currentPageData.map((row, index) => (
@@ -150,9 +148,9 @@ import LeaderboardRow from './LeaderboardRow';
                 <div
                 style={{
                     position: 'absolute',
-                    left: '340px',
-                    top: '150px',
-                    padding: '5px',
+                    left: '320px',
+                    top: '140px',
+                    padding: '10px',
                     borderRadius: '5px',
                 }}
                 >

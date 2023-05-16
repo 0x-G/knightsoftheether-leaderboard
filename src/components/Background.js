@@ -1,7 +1,7 @@
 //Background.js
 import React from 'react';
 import styles from '../styles/Background.module.css';
-import bgImage from '../assets/BG.png';
+import bgImage from '../assets/lairBG.jpg';
 
 const Background = ({ children }) => {
   return (
@@ -15,4 +15,3 @@ const Background = ({ children }) => {
 };
 
 export default Background;
-
