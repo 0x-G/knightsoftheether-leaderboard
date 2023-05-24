@@ -125,9 +125,10 @@ import LeaderboardRow from './LeaderboardRow';
           <img
             src={search}
             alt="search"
-            style={{ position: 'absolute', left: '70px', height: '40px', bottom: '-10px' }}
+            style={{ marginLeft: '30px', height: '35px', top: '0px' }}
             onClick={toggleSearchVisibility}
-            />
+        />
+
         </div>
         <div className={styles.columnTitle} style={{ top: '205px', left: '727px' }}>
           Score

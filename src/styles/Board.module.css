@@ -48,7 +48,10 @@
     font-family: 'Amiri';
     font-size: 25px;
     font-weight: 500;
+    display: flex;
+    align-items: center;
 }
+
 
 .navigationButton {
     margin-right: 30px;

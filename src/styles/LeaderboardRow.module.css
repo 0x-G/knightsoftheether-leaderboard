@@ -46,12 +46,6 @@
     height: 35px; /* Adjust the size as needed */
   }
   
-.searchIcon {
-    position: absolute;
-    left: calc(100% - 60px); /* Adjust the value as needed to position the search icon */
-    height: 45px; /* Adjust the size as needed */
-  }
-  
   
   
   
